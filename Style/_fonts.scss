@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+@import url(https://github.com/marcojakob/code.makery.ch/blob/master/assets/sass/_bootstrap-social.scss);
+@import font(style:format:black)
+@font-face {
+  font-family: 'Museo Slab';
+  src: url('../fonts/Museo_Slab_500-webfont.eot');
+  src: url('../fonts/Museo_Slab_500-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Museo_Slab_500-webfont.woff') format('woff'),
+  url('../fonts/Museo_Slab_500-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo Slab';
+  src: url('../fonts/Museo_Slab_500italic-webfont.eot');
+  src: url('../fonts/Museo_Slab_500italic-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Museo_Slab_500italic-webfont.woff') format('woff'),
+  url('../fonts/Museo_Slab_500italic-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Museo Slab';
+  src: url('../fonts/Museo_Slab_700-webfont.eot');
+  src: url('../fonts/Museo_Slab_700-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Museo_Slab_700-webfont.woff') format('woff'),
+  url('../fonts/Museo_Slab_700-webfont.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
