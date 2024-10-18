@@ -1,22 +1,19 @@
-name: CI
-
+name: server connect
 on:
+  create:
+    tags:
   push:
-    branches: [ "main" ]
+    branches:
+      - main
   pull_request:
-    branches: [ "main" ]
-
-  workflow_dispatch:
 
 jobs:
-  build:
+  lint:
+    name: production dev
     runs-on: ubuntu-latest
-
+    environment: 'production'
     steps:
-
-      - uses: actions/checkout@v4
-        
-      - name: Disconnect and publish package
-        run: |
-          echo pnpm run start
-          echo test, and deploy.
+    - uses: actions/setup-python@v1
+      with:
+        python-version: '3.x'
+    - uses: actions/checkout@v1
